@@ -3,7 +3,7 @@ from read_data_csv import Data_analysis
 class Meneger:
 
     @staticmethod
-    def meneger:
+    def meneger():
         dic = {"total_tweets":
                 {
                    "antisemitic":Data_analysis.sum_tweets_1(),
@@ -32,3 +32,5 @@ class Meneger:
                     "total":Data_analysis.uppercase_words_total()
                 }
               }
+        return dic
+
